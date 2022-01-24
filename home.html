@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script> src = "ASSETS/bootstrap/js/jquery-3.4.0.js"</script>
+    <script> src = "ASSETS/bootstrap/js/bootstrap.js"</script>
+    <script> src = "ASSETS/bootstrap/js/popper.min.js"</script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap/custom.css">
+</head>
+
+<body>
+    <!-- start of nav bar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">edge class</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of nav bar -->
+    <!--slide-->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/bootstrap/images/images.jpg" alt="Los Angeles">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/bootstrap/images/images-4.png" alt="Chicago">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/bootstrap/images/images-3.png" alt="New York">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!--end of slide-->
+    <video src="/assets/bootstrap/images/export (1).MP4" autoplay loop></video>
+    <!--footer-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Bootstrap Tutorial</h1>
+            <p>Bootstrap is the most popular HTML, CSS...</p>
+        </div>
+    </div>
+</body>
+
+</html>
